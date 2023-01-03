@@ -13,10 +13,10 @@ img {
   max-width: 100%;
 }
 #header {
-  /* position: fixed;
+   position: fixed;
   width: 100%;
   background-color: white;
-  z-index: 9; */
+  z-index: 9;
 }
 #header .active-header {
   position: fixed;
@@ -89,12 +89,6 @@ a:hover {
   border-radius: 30px;
   position: relative;
   outline: none;
-}
-.login ul {
-  list-style-type: none;
-  padding: 0;
-}
-.login li {
 }
 #header .header-action {
   padding: 22px 5px;
