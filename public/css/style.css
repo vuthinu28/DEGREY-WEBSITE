@@ -200,6 +200,10 @@ button.btn.btn--detail {
   border: 1px solid #6c757d;
   margin: 0.5em 0;
 }
+.justify-content-center {
+  justify-content: center!important;
+  margin-top: 80px;
+}
 #myBtn{
   position: fixed;
   display: none;
