@@ -17,6 +17,10 @@ $(".menu-icon").click(function () {
   $(".menu ul").css("left", "0");
   $("#overlay").css("display", "block");
 });
+$(".close-menu-icon").click(function(){
+  $(".menu-icon").css("left", "-350px");
+  $("#overlay").css("display","none");
+});
 $(".shopping-cart").click(function () {
   $(".cart").css("right", "0");
   $("#overlay").css("display", "block");
