@@ -4,10 +4,10 @@
 @import url(./card.css);
 @import url(./responsive.css);
 @import url(./cartSidebar.css);
-.image-mini .mini-item {
-  display: none;
-}
 
+.slick-slider{
+  padding-top: 70px;
+}
 .slick-prev {
   left: 0;
 }
@@ -172,6 +172,7 @@
   z-index: 1;
   transition: 0.5s;
   font-size: 12px;
+  margin-top: 20px;
 }
 .more-btn a{
   color: white;
@@ -194,6 +195,9 @@
 }
 .btn2:hover a {
   color: white;
+}
+button.btn.btn--detail {
+  border: 1px solid #6c757d;
 }
 #myBtn{
   position: fixed;
@@ -444,9 +448,6 @@
 @media (max-width: 990px) {
   .image-item .image {
     margin-top: 10px;
-  }
-  .image-mini .mini-item {
-    display: block;
   }
   #header .header-logo {
     margin: 0 15px;
