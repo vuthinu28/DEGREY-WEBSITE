@@ -1,7 +1,6 @@
 @import url(./header.css);
 @import url(./footer.css);
 @import url(./responsive.css);
-@import url(./cartSidebar.css);
 :root{
     --primary:#8b572a;
     --secondary:#E80E0E;
